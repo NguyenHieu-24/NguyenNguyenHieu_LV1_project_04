@@ -62,8 +62,8 @@ banking-analytics-project/
 The database is designed around transactional data commonly found in banking or fintech systems.
 
 ### Key Tables
-* orders
-** order_id
+*orders
+**order_id
 ** order_date
 ** customer_id
 ** seller_id
@@ -163,3 +163,4 @@ Through this project, you will gain experience in:
 
 ## 📄 License
 This project is for educational purposes only.
+
