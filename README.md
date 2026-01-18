@@ -64,18 +64,18 @@ The database is designed around transactional data commonly found in banking or 
 ### Key Tables
 - orders
     - order_id
-** order_date
-** customer_id
-** seller_id
-** order_status
-** total_amount
+    - order_date
+    - customer_id
+    - seller_id
+    - order_status
+    - total_amount
 
-* order_items
-** order_item_id
-** order_id
-** product_id
-** quantity
-** price
+- order_items
+    - order_item_id
+    - order_id
+    - product_id
+    - quantity
+    - price
 
 ### Optimization Techniques
 * Indexes on frequently queried columns
@@ -163,5 +163,6 @@ Through this project, you will gain experience in:
 
 ## 📄 License
 This project is for educational purposes only.
+
 
 
