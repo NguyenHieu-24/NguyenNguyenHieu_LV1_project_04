@@ -1,0 +1,29 @@
+[project]
+name = "project-4"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nguyen Hieu Nguyen",email = "nguyenhieu24lk@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "psycopg2-binary (>=2.9.11,<3.0.0)",
+    "sqlalchemy (>=2.0.45,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
+
+[tool.poetry]
+name = "banking-analytics-project"
+version = "0.1.0"
+description = ""
+authors = ["Nguyen Nguyen Hieu"]
+packages = [
+    { include = "banking_analytics", from = "src" }
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

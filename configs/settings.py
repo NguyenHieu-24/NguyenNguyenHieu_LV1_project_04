@@ -1,0 +1,4 @@
+APP_NAME = "Banking Analytics Project"
+DATE_FORMAT = "%Y-%m-%d"
+DEFAULT_START_DATE = "2025-08-01"
+DEFAULT_END_DATE = "2025-10-31"

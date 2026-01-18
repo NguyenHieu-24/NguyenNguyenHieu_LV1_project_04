@@ -1,0 +1,4 @@
+EXPLAIN ANALYZE
+SELECT *
+FROM order_item
+WHERE product_id = 1001;
